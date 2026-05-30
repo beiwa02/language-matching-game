@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Word-match</title>
+  <!-- Links -->
+  <link rel="stylesheet" href="./langMatchFlex.css">
+  <script type="module" src="./matchingGame.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+</head>
+<body>
+  <nav>
+    <div id="languageOptions">
+      <ul id="langList">
+        <li><button type="button" class="langOpt" id="norwegianButton">Norwegian</button></li>
+        <li><button type="button" class="langOpt" id="chineseButton">Chinese</button></li>
+        <li><button type="button" class="langOpt" id="italianButton">Italian</button></li>
+        <li><button type="button" class="langOpt" id="germanButton">German</button></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <h1>Language Word-match</h1>
+    <p>What does the word below mean?</p>
+  </header>
+  <div id="game">
+    <div id="queryValueBox">
+      <p>Query key goes here</p>
+    </div>
+    <div id="answerBox">
+      <p></p>
+    </div>
+    <div id="buttons">
+      <ul id="ansList">
+        <li><button type="button" class="ansOpt" id="buttonOne">Button 1</button></li>
+        <li><button type="button" class="ansOpt" id="buttonTwo">Button 2</button></li>
+        <li><button type="button" class="ansOpt" id="buttonThree">Button 3</button></li>
+        <li><button type="button" class="ansOpt" id="buttonFour">Button 4</button></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
